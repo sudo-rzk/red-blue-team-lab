@@ -187,7 +187,7 @@ These limitations distinguish demonstrated results from capabilities that have n
 | Tunneling | Cloudflare Tunnel |
 | Log Collection | Grafana Alloy |
 | Log Storage | Grafana Loki |
-| Visualization & Alerting | Grafana |
+| Visualization & Alerting | Grafana Dashboard |
 | Reconnaissance | Nmap, Subfinder, HTTPX |
 | Web Security Testing | Nikto, Nuclei, SQL Injection, Command Injection |
 | Operating System Enumeration | Linux command-line utilities |
