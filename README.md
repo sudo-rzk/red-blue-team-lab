@@ -72,8 +72,8 @@ The Blue Team monitoring implementation uses three main components:
 | Component | Function |
 |---|---|
 | Grafana Alloy | Collects Apache access logs from the Debian server and forwards them to Loki. |
-| Loki | Receives, stores, and indexes log data for querying. |
-| Grafana | Visualizes collected logs and evaluates alert rules. |
+| Grafana Loki | Receives, stores, and indexes log data for querying. |
+| Grafana Dashboard | Visualizes collected logs and evaluates alert rules. |
 
 ### Log Flow
 ![Topology Grafana](images/monitoring/topology%20grafana.png)
