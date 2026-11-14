@@ -5,12 +5,11 @@ This project demonstrates the relationship between Red Team activities and Blue 
 
 
 ## 1. Project Overview
+The Red & Blue Team Lab is a personal cybersecurity lab built using VirtualBox, MikroTik CHR, Debian Server, Ubuntu, and Kali NetHunter. It provides a place to learn and practice different cybersecurity techniques in a controlled environment.
 
-The Red & Blue Team Lab is a personal cybersecurity learning environment built using VirtualBox, MikroTik CHR, Debian Server, Ubuntu, and Kali NetHunter.
+In this lab, a web application with known security vulnerabilities is used as the target for security testing. At the same time, monitoring tools collect server logs to help observe and understand the activities happening during the tests.
 
-The lab is designed to simulate a web server infrastructure where offensive security activities can be performed against a deliberately vulnerable web application, while defensive monitoring components collect and analyze server logs.
-
-The main objective is to understand how activities performed during reconnaissance, vulnerability assessment, exploitation, and post-exploitation can generate observable events that can be investigated from a defensive security perspective.
+The main goal of this project is to learn how security testing activities, from reconnaissance and vulnerability testing to exploitation and post-exploitation, can be detected and reviewed from the defensive side.
 
 ### Project Objectives
 
@@ -63,7 +62,8 @@ The main network components include:
 
 ### Architecture Diagram
 
-<!-- Add the lab network topology image here. -->
+![Topology Network](images/topology/topology%20network.png)
+
 
 ## 3. Monitoring Architecture
 
@@ -76,7 +76,7 @@ The Blue Team monitoring implementation uses three main components:
 | Grafana | Visualizes collected logs and evaluates alert rules. |
 
 ### Log Flow
-<!-- Add the lab grafana topology image here. -->
+![Topology Grafana](images/monitoring/topology%20grafana.png)
 
 The monitoring implementation focuses primarily on Apache HTTP access logs.
 
