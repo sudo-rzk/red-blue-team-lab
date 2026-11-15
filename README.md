@@ -141,8 +141,8 @@ These documents describe the infrastructure, configuration, monitoring implement
 
 ### Supporting Documentation
 
-| Document | Description |
-|---|---|
+| No. | Document | Description |
+|---|---|---|
 | 03 | [Install and Setup DVWA](docs/supporting/Install&Setup%20Lab%20DVWA.pdf) | Additional reference for installing and configuring DVWA as a web application testing target. |
 
 > **Note:** The DVWA installation guide documents an installation performed in Kali Linux. Its instructions should not be treated as a complete record of the Debian Server deployment used in the main lab.
