@@ -134,7 +134,7 @@ These documents describe the infrastructure, configuration, monitoring implement
 | No. | Document | Description |
 |---|---|---|
 | 01 | [Install MikroTik CHR and Lab Notes](docs/main/Install%20Mikrotik%20Chr%20Virtualbox.pdf) | Preparation and installation of MikroTik CHR for the virtualized lab. |
-| 02 | [MikroTik CHR Configuration](docs/main/KONFIGURASI%20MIKROTIK%20CHR%20RED&BLUE%20LAB.pdf) | Network interfaces, IP addressing, DNS, and firewall configuration. |
+| 02 | [MikroTik CHR Configuration](docs/main/KONFIGURASI%20MIKROTIK%20CHR%20RED&BLUE%20TEAM%20LAB.pdf) | Network interfaces, IP addressing, DNS, and firewall configuration. |
 | 04 | [Cloudflare Tunnel on Debian Server](docs/main/Tunneling%20Debian%20Server%20Using%20Cloudflared.pdf) | Tunnel configuration for accessing the web application externally. |
 | 05 | [Grafana, Loki, and Alloy Monitoring](docs/main/Install%20Grafana%20Red&Blue%20Team%20Lab.pdf) | Monitoring stack installation, log collection, dashboards, and alerting. |
 | 06 | [Red & Blue Team Testing](docs/main/Testing%20Red&Blue%20Team%20Lab.pdf) | Red Team simulation, Blue Team detection, and incident investigation. |
